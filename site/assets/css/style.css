@@ -221,6 +221,79 @@ color: #343a40;
 .social-icons ul li.insta a:hover { background: #5657cd; fill: #fff; }
 .social-icons ul li.twitter a:hover { background: #00b9f3; fill: #fff; }
 
+#toggle1 {
+  margin-left: 80px;
+  height: 44px;
+  width: 166.23px;
+  color: white;
+  font-family: cursive;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: #0069d9;
+  
+
+}
+#toggle2 {
+  margin-left: 80px;
+  height: 44px;
+  width: 166.23px;
+  color: white;
+  font-family: cursive;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: #0069d9;
+  
+
+}
+#toggle3 {
+  margin-left: 80px;
+  height: 44px;
+  width: 166.23px;
+  color: white;
+  font-family: cursive;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: #0069d9;
+  
+
+}
+#toggle4 {
+  margin-left: 80px;
+  height: 44px;
+  width: 166.23px;
+  color: white;
+  font-family: cursive;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: #0069d9;
+  
+
+}
+#toggle5 {
+  margin-left: 80px;
+  height: 44px;
+  width: 166.23px;
+  color: white;
+  font-family: cursive;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: #0069d9;
+  
+
+}
+#toggle6 {
+  margin-left: 80px;
+  height: 44px;
+  width: 166.23px;
+  color: white;
+  font-family: cursive;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: #0069d9;
+  
+
+}
+
 .form-control {
     height: 44px;
     background: #fff;
