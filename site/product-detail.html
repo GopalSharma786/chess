@@ -53,10 +53,11 @@
 										<a href="javascript:void(0);"><i class="material-icons">account_circle</i> login</a>
 									</li>
 									<li class="dropdown currency-dropdown">
-										<a href="javascript:void(0);" data-toggle="dropdown">usd <i class="material-icons">expand_more</i></a>
+										<a href="javascript:void(0);" data-toggle="dropdown">Theme Color <i class="material-icons">expand_more</i></a>
 										<ul class="dropdown-menu dropdown-menu-right">
-											<li><a href="javascript:void(0);">eur</a></li>
-											<li><a href="javascript:void(0);">gbp</a></li>
+											<li><a href="javascript:void(0); show_changecolor('#dc3545');">Red</a></li>
+											<li><a href="javascript:void(0); show_changecolor('#2e6ed5');">Blue</a></li>
+											<li><a href="javascript:void(0); show_changecolor('#117a8b');">Green</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -437,6 +438,7 @@
 			</section>
 			<!-- END FOOTER HIGHLIGHTER -->
 		</main>
+
 		<footer class="footer light-grey">
 			<div class="container">
 				<div class="row">
@@ -535,6 +537,7 @@
 				</div>
 			</div>
 		</footer>
+
 	</body>
 	<script src="assets/js/jquery-3.3.1.min.js" type="text/javascript"></script>
 	<script src="assets/js/popper.min.js" type="text/javascript"></script>
@@ -542,4 +545,11 @@
 	<script src="assets/js/easyzoom.js" type="text/javascript"></script>
 	<script src="assets/js/slick.js" type="text/javascript"></script>
 	<script src="assets/js/custom.js" type="text/javascript"></script>
+	<script>
+		function show_changecolor(color) {
+			debugger;
+			document.getElementsByClassName('topbar')[0].style.background = color;
+		
+		}
+	</script>
 </html>
